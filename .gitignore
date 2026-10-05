@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+/dist/
+/downloads/
+/private/
+/content/external/
+*.zim
+*.iso
+*.img
+.env
+.env.*
+

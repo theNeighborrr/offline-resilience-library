@@ -1,0 +1,37 @@
+{
+  "version": "0.1.0",
+  "files": {
+    "START-HERE.html": {
+      "sha256": "e32eabe626e98d4d8712265269d9e56af0ddeaf78282a8585451bfe1bc1f2f21",
+      "bytes": 14628
+    },
+    "assets/app.js": {
+      "sha256": "a58f3d92411f54e8f8ec3c3c20a91f46734bd02ba191a2a057ffeed694db7dde",
+      "bytes": 1464
+    },
+    "assets/style.css": {
+      "sha256": "aa6078a8441d1b1606c8499bd376821f38003441f620a77b17e7f7743b0f1905",
+      "bytes": 6132
+    },
+    "catalog.json": {
+      "sha256": "d3a91a4dc252a5d9ef6dda1b4a39521aa70d55d2fd0719b69fc3f069ef7a99ee",
+      "bytes": 10798
+    },
+    "content/guides/communications.html": {
+      "sha256": "88121cc05aff52fddfc07f315a7b0e66dd4ea532b06ae9653494bb3083479dc8",
+      "bytes": 2128
+    },
+    "content/guides/getting-started.html": {
+      "sha256": "5214e0f28fbeadc3f64d3d14048368dea30d052d3f31f63f5c5569ea994556e9",
+      "bytes": 3093
+    },
+    "content/guides/household-plan.html": {
+      "sha256": "43316775ae115d3e92cf7cbc133de8de109762f9352575b267195fa9ce54d5bc",
+      "bytes": 1971
+    },
+    "content/guides/inventory.html": {
+      "sha256": "b52e19df319dca2a618d4981f1f16f8b428cbb8287311937924c48d467385657",
+      "bytes": 1894
+    }
+  }
+}

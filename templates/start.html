@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer"><title>Offline Resilience Library</title>
+<link rel="stylesheet" href="assets/style.css"><script src="assets/app.js" defer></script></head>
+<body>
+<header class="topbar"><div class="brand"><span class="mark" aria-hidden="true">+</span>OFFLINE RESILIENCE LIBRARY</div><span class="tag">Personal collection / v{{VERSION}}</span></header>
+<div class="layout"><aside class="sidebar"><h2>Browse the library</h2><nav aria-label="Topics"><ul class="topics">{{TOPICS}}</ul></nav><div class="side-note"><strong>Keep a copy close.</strong><p>Copy this whole folder to your USB drive. Open the start page after copying to check it.</p><a href="content/guides/getting-started.html">Read the setup guide</a></div></aside>
+<main><div class="eyebrow">A field library for everyday resilience</div><h1>Good information.<br>Even when you're offline.</h1><p class="intro">Find your plans, practical references, and tools in one place. Start with what is here, then build the collection at your own pace.</p>
+<div class="stats"><div class="stat"><strong>{{INCLUDED}}</strong><span>included pages</span></div><div class="stat"><strong>{{PLANNED}}</strong><span>sources to add</span></div><div class="stat"><strong>12</strong><span>subject areas</span></div></div>
+<div class="banner"><strong>Starter edition.</strong> Included pages work offline. Items marked “To add” have no downloaded content yet. Wikipedia, maps, and reader software are not included.</div>
+<noscript><p class="no-js">JavaScript is disabled. All catalog cards and included links are still available; search and filters require JavaScript.</p></noscript>
+<div class="toolbar"><label class="search-label" for="search">Search titles, descriptions, and keywords<input id="search" type="search" placeholder="Try contacts, maps, repair…" autocomplete="off"></label><label for="availability">Show<select id="availability"><option value="all">All items</option><option value="included">Included offline</option><option value="planned">To add</option></select></label></div>
+<div class="results-line"><p id="result-count" role="status" aria-live="polite">{{TOTAL}} items</p><button id="reset" type="button" class="text-button">Reset filters</button></div>
+<div class="cards">{{CARDS}}</div><p id="empty" class="empty" hidden>No items match these filters. This topic may still be empty. Try another topic or reset the filters.</p>
+<footer>Edition {{VERSION}} · {{DATE}} · No accounts, tracking, or automatic internet requests. External source links require internet. Included status reflects this build; keep the folder intact.</footer></main></div></body></html>
+
